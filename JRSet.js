@@ -9,7 +9,7 @@
 jQuery.pkg('JRSet-1.0d1.pkg.js', {
     require: 'http://cloud.github.com/downloads/rentzsch/Math.uuid.js/Math.uuid.js-1.4.pkg.js',
     init: function(){
-        function JRSet(sourceArray){
+        JRSet = function JRSet(sourceArray){
             this._elements = {};
             this._length = 0;
             if (sourceArray !== undefined) {
